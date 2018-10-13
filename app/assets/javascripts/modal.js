@@ -1,10 +1,9 @@
-var modal = document.getElementById('gmModal');
-var btn = document.getElementById("gmBtn");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
+function openModal() {
+  var modal = document.getElementById('gmModal');
   modal.style.display = "block";
 }
-span.onclick = function() {
+function closeModal() {
+  var modal = document.getElementById('gmModal');
   modal.style.display = "none";
 }
 window.onclick = function(event) {
