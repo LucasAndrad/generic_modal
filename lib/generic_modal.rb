@@ -1,5 +1,6 @@
 require "generic_modal/version"
+require "generic_modal/engine"
 
 module GenericModal
-  # Your code goes here...
+  
 end
